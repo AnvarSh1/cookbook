@@ -1,5 +1,5 @@
 # Simple Ruby Login installer.
-### Chef cookbook consisting of one recipe, that installs [simple_ruby_login](https://github.com/AnvarSh1/simple_ruby_login), all dependencies and launches web server. 
+### Chef cookbook consisting of one recipe, that installs [simple_ruby_login](https://github.com/AnvarSh1/simple_ruby_login), all its dependencies, and launches web server. 
 
 *At first, I planned to use separate cookbooks and recipes for separate installations and operations - but that became unnecessary complex, and while using bash script resource can be seen as "cheating" - it is in fact easier and quicker method for this particular purposes. While code itself is pretty much self-explanatory, let's look through separate script parts to see what each of them does:*
 
